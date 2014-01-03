@@ -19,7 +19,7 @@ These screenshots show what the plugin looks like with the default templates. To
 
 ## Installation
 
-* Run `pip install -e git+https://github.com/syntaxsugar/mezzanine-events.git#mezzanine_events`
+* Run `pip install -e git+https://github.com/syntaxsugar/mezzanine-events.git#egg=mezzanine_events`
 * Add `"mezzanine_events"` to your `INSTALLED_APPS`
 * Add `("^", include("mezzanine_events.urls"))` to your `urls.py` (this is so that mezzanine-events can serve up iCalendar files).
 * Set either the `TIME_ZONE` or `MZEVENTS_TIME_ZONE` settings. (If neither of these settings are set, the Google Calendar links will not work as expected.)
